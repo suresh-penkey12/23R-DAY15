@@ -1,0 +1,113 @@
+.main-container{
+    border:2px solid;
+    height:75vh;
+    width:250px;
+    padding:2px;
+    margin-top: 50px;;
+}
+.a{
+    border:2px solid;
+    height:250px;
+
+    display:flex;
+    padding:2px;
+    justify-content: space-evenly;
+    border: none;
+}
+.b{
+    border:2px solid;
+    height:250px;
+    display:flex;
+    padding:2px;
+    justify-content: space-evenly;
+    border: none;
+    margin-top:10px;
+}
+.a1{
+    border:2px solid;
+    height:37vh;
+    width:30px;
+    padding:2px;
+    border-radius: 5px;
+}
+.a2{
+    background-color: blue;
+    transition: 1s;
+    background-image: url(./spider1.jpeg);
+    background-repeat: no-repeat;
+}
+.a3{
+    background-color:aqua;
+    transition: 1s;
+    background-image: url(./spider2.jpeg);
+    background-repeat: no-repeat;
+}
+.a4{
+    background-color:yellow;
+    transition: 1s;
+    background-image: url(./spider3.jpeg);
+    background-repeat: no-repeat;
+}
+.a5{
+    background-color: orangered;
+    transition: 1s;
+    background-image: url(./spider4.jpeg);
+    background-repeat: no-repeat;
+}
+.a6{
+    background-color:palevioletred;
+    transition: 1s;
+    background-image: url(./spider5.jpeg);
+    background-repeat: no-repeat;
+}
+.a1:hover {
+    width: 300px;
+    /* transform: translate(50px, 100px); */
+    transform: scale(1.5);
+  }
+.b1{
+    border:2px solid;
+    height:37vh;
+    width:30px;
+    padding:2px;
+    border-radius: 5px;
+}
+.b2{
+    background-color: blue;
+    transition: 1s;
+    background-image: url(./spider6.jpeg);
+    background-repeat: no-repeat;
+}
+.b3{
+    background-color:aqua;
+    transition: 1s;
+    background-image: url(./spider7.jpeg);
+    background-repeat: no-repeat;
+}
+.b4{
+    background-color:yellow;
+    transition: 1s;
+    background-image: url(./spider8.jpeg);
+    background-repeat: no-repeat;
+}
+.b5{
+    background-color: orangered;
+    transition: 1s;
+    background-image: url(./spider9.jpeg);
+    background-repeat: no-repeat;
+}
+.b6{
+    background-color:palevioletred;
+    transition: 1s;
+    background-image: url(./spider2.jpeg);
+    background-repeat: no-repeat;
+}
+.b1:hover {
+    width: 300px;
+    transform: translate(50px, 100px);
+  }
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
